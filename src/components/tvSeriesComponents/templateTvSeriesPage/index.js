@@ -9,7 +9,7 @@ import Spinner from '../../spinner'
 
 const TemplatePage = ({ tvseries, children }) => {
   const { data , error, isLoading, isError } = useQuery(
-    ["images", { id: tvseries.id }],
+    ["tvimages", { id: tvseries.id }],
     getTVImages
   );
 
@@ -21,6 +21,7 @@ const TemplatePage = ({ tvseries, children }) => {
     return <h1>{error.message}</h1>;
   }
   const images = data.posters 
+  console.log(tvseries)
 
   return (
     <>
