@@ -9,6 +9,12 @@ now whenever a user runs npm start they are brought to http://localhost:8080/Cor
 
 Continueing error with Tvseries pages, the api seems to have trouble pulling the images for the tvshows which was causing the page not to load, Other than that all other pages unrelated to tv series are working as intended.
 
+The api appears to be working but will not call the Tvshow images as can be seen here:
+https://api.themoviedb.org/3/tv/1/images?api_key=7e287e985b66b4afc080f3d9806d9d5b
+https://api.themoviedb.org/3/discover/tv?api_key=7e287e985b66b4afc080f3d9806d9d5b&language=en-US&sort_by=popularity.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false&with_watch_monetization_types=flatrate&with_status=0&with_type=0
+https://api.themoviedb.org/3/tv/18/images?api_key=7e287e985b66b4afc080f3d9806d9d5b
+
+
 ### New Pages.
 
 -Popular Movies Page
