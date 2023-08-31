@@ -4,6 +4,11 @@ Name: Cormac Farrell
 
 ## Overview.
 
+Encountered a massive error with my code upon trying to intigrate mongobd into assignment 1
+now whenever a user runs npm start they are brought to http://localhost:8080/Cormac-Farrell/WAD-Movies-Assignmen and not the intended site. reverting the code from a previous verson has not fixed this.
+
+Continueing error with Tvseries pages, the api seems to have trouble pulling the images for the tvshows which was causing the page not to load, Other than that all other pages unrelated to tv series are working as intended.
+
 ### New Pages.
 
 -Popular Movies Page
@@ -49,9 +54,6 @@ storybook non functional
 ![toprated](https://user-images.githubusercontent.com/74902128/208070644-f2c2d2a9-4357-4b64-a4b2-1a6b61ce039c.png)
 
 //Tv series encountered an error while trying to fetch the images for the series with the API and i could not remedy this.
-![Tv series with error](https://user-images.githubusercontent.com/74902128/208070796-54f6796d-b085-4c71-b54e-dfc19c8c0ff1.png)
-
-![tv favourites](https://user-images.githubusercontent.com/74902128/208070767-1cb75182-592b-4b8b-b4ce-04e6a861a38a.png)
 
 ### Routing.
 
